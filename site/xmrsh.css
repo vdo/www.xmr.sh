@@ -114,16 +114,16 @@ hr {
 #platform-instructions-unknown > div > div > pre {
   background-color: #515151;
   color: white;
-  margin-left: auto;
+  margin-left: 5rem;
   /*margin-right: auto;*/
   padding: 1rem;
-  width: 30rem;
+  width: 24rem;
   text-align: center;
   border-radius: 3px;
   box-shadow: inset 0px 0px 20px 0px #333333;
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   font-size: 0.6em;
-  height: 16px;
+  height: 12px;
 }
 
 #platform-instructions-unix div.copy-container,
@@ -193,6 +193,13 @@ hr {
   width: 16px;
   height: 16px;
   transform: translateY(2px);
+}
+
+.asciicast {
+
+  align-items: center;
+  /* display: flex; */
+  justify-content: center;
 }
 
 #platform-button {

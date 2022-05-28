@@ -1,4 +1,5 @@
-// NB: This has no effect on rust-lang.org/install.html
+// Based on rustup.js from rustup.rs
+
 function set_up_default_platform_buttons() {
     var defaults_buttons = document.getElementsByClassName('default-platform-button');
     for (var i = 0; i < defaults_buttons.length; i++) {
