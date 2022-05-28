@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>xmr.sh - The Monero node installer</title>
+  <meta name="keywords" content="Monero, XMR, privacy, tor">
+  <meta name="description" content="The Monero node installer">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="xmrsh.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+</head>
+
+<body id="idx">
+
+<p id="pitch">
+  <img src="logo-h.png" alt="" />
+  <br/>A quick installer for <a href="https://www.getmonero.org/">Monero</a> nodes.
+</p>
+
+<div id="platform-instructions-default" class="instructions">
+  <div>
+    <p>Run the following in your terminal, then follow the onscreen instructions.</p>
+    <div class="copy-container">
+      <pre>curl  -sLSf https://get.xmr.sh | sudo bash</pre>
+      <button id="copy-button-default" class="copy-button" title="Copy curl command to clipboard to download Rustup" type="button">
+        <div class="copy-icon">
+          <svg width="24" height="25" viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg" alt="Copy curl command to clipboard to download Rustup">
+            <path d="M18 20h2v3c0 1-1 2-2 2H2c-.998 0-2-1-2-2V5c0-.911.755-1.667 1.667-1.667h5A3.323 3.323 0 0110 0a3.323 3.323 0 013.333 3.333h5C19.245 3.333 20 4.09 20 5v8.333h-2V9H2v14h16v-3zM3 7h14c0-.911-.793-1.667-1.75-1.667H13.5c-.957 0-1.75-.755-1.75-1.666C11.75 2.755 10.957 2 10 2s-1.75.755-1.75 1.667c0 .911-.793 1.666-1.75 1.666H4.75C3.793 5.333 3 6.09 3 7z"></path><path d="M4 19h6v2H4zM12 11H4v2h8zM4 17h4v-2H4zM15 15v-3l-4.5 4.5L15 21v-3l8.027-.032L23 15z"></path>
+          </svg>
+        </div>
+        <div id="copy-status-message-default" class="copy-button-text"></div>
+      </button>
+    </div>
+  </div>
+
+  <!-- <hr/> -->
+
+
+<p></p>
+<p>
+  Questions?<br>Check the FAQ in the <a href="https://github.com/vdo/xmr.sh/wiki">Wiki</a><br>
+</p>
+
+<p id="about">
+  <img src="github-48.png" width="32" height="32"/>
+  <a href="https://github.com/vdo/xmr.sh">Source Code</a>
+  <br/>
+  <a href="https://rust-lang.github.io/rustup/installation/other.html">features</a>
+  &nbsp;&middot;&nbsp;
+  <!-- <a href="https://rust-lang.github.io/rustup-components-history/">component availability</a>
+  &nbsp;&middot;&nbsp; -->
+  <a href="https://rustup.rs/">site based on rustup</a>
+</p>
+
+<!-- <script src="rustup.js"></script> -->
+<script src="xmrsh.js"></script>
