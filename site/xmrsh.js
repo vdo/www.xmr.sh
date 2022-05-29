@@ -1,4 +1,5 @@
 // Based on rustup.js from rustup.rs
+var xmrsh_install_command = "curl  -sLSf https://get.xmr.sh | sudo bash";
 
 function set_up_default_platform_buttons() {
     var defaults_buttons = document.getElementsByClassName('default-platform-button');
@@ -20,7 +21,7 @@ function clear_copy_status_message(id) {
 
 function process_copy_button_click(id) {
     try {
-        navigator.clipboard.writeText(rustup_install_command).then(function() {
+        navigator.clipboard.writeText(xmrsh_install_command).then(function() {
             document.getElementById(id).innerText = 'Copied!';
         });
         setTimeout(function () {
@@ -61,8 +62,7 @@ function set_up_copy_button_clicks() {
 }
 
 (function () {
-    adjust_for_platform();
-    set_up_cycle_button();
+    //set_up_cycle_button();
     set_up_default_platform_buttons();
     set_up_copy_button_clicks();
     fill_in_bug_report_values();

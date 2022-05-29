@@ -196,10 +196,13 @@ hr {
 }
 
 .asciicast {
-
   align-items: center;
   /* display: flex; */
   justify-content: center;
+}
+
+.donation {
+  font-size: 14px;
 }
 
 #platform-button {
