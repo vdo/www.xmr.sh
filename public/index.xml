@@ -1,9 +1,0 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>xmr.sh</title>
-        <link>http://xmr.sh/</link>
-        <description>A lighspeed fast Monero node installer.</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language>
-            <atom:link href="http://xmr.sh/index.xml" rel="self" type="application/rss+xml" />
-        </channel>
-</rss>
