@@ -1,5 +1,5 @@
 // Based on rustup.js from rustup.rs
-var xmrsh_install_command = "curl  -sLSf https://get.xmr.sh | sudo bash";
+var xmrsh_install_command = "sudo bash -c \"$(curl  -sLSf https://get.xmr.sh)\"";
 
 function set_up_default_platform_buttons() {
     var defaults_buttons = document.getElementsByClassName('default-platform-button');
