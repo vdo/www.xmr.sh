@@ -79,7 +79,7 @@ body#idx > #pitch {
 
 body#idx p {
   margin-top: 2em;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
 }
 
 body#idx p.other-platforms-help {
